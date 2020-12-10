@@ -35,7 +35,7 @@ var options = {
     var Lpos = this.Lbody.position;
     var Rpos = this.Rbody.position;
 
-   /* //var angle = this.body.angle;
+   /* var angle = this.body.angle;
     push();
     translate(Lpos.x, Lpos.y);
     rotate(this.angle);
@@ -49,7 +49,7 @@ var options = {
     rotate((-1) * this.angle);
     rectMode(CENTER);
     fill("black");
-    //rect(0, -120, 20, 200);
+    rect(0, -120, 20, 200);
     pop();
 
     console.log("Lpos.x: "+Lpos.x);
@@ -59,10 +59,10 @@ var options = {
     //translate(Bpos.x, Bpos.y);
     rotate((-1)*this.angle);
     imageMode(CENTER);
-    //rectMode(CENTER);
+    
     fill("black");
     image(this.BboxImg, this.x, this.y-30, this.width, this.height+200)
-    //rect(0, 0, this.width, this.height);
+    
     pop();
   }
 };
