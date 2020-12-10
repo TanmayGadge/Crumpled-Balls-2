@@ -31,6 +31,7 @@ function setup() {
 	
 	paper = new Paper(200, 220, 70, 70);
 
+	//invisible bodies.
 	b1 = new Ground(1220, 280, 20, 180);
 	b2 = new Ground(1380, 280, 20, 180);
 
